@@ -39,7 +39,7 @@ function creatsinglecard(index, logo, name, symbol, coinid) {
   symbol_ele.innerText = symbol;
   const anchor_ele = document.createElement("a");
   anchor_ele.innerText = "More Info";
-  anchor_ele.href = "/Details.html?id=" + coinid;
+  anchor_ele.href = "./Details.html?id=" + coinid;
 
   const container_ele = document.createElement("div");
   container_ele.classList.add("single-search-result", "card");

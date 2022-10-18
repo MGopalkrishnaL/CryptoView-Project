@@ -4,9 +4,9 @@ function convertTOjson(response) {
 document
   .getElementById("nav-search-button")
   .addEventListener("click", function () {
-    window.location.href = "/Search.html";
+    window.location.href = "./Search.html";
   });
 
 document.getElementById("main-title").addEventListener("click", function () {
-  window.location.href = "/Index.html";
+  window.location.href = "./Index.html";
 });
