@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  background-color: #d8e2dc;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  padding-bottom: 5rem;
+  min-height: calc(100vh - 5rem);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0%;
+}
+.d-inline {
+  display: inline;
+}
+nav {
+  background-color: #fff;
+  padding: 0.6rem;
+}
+.f-right {
+  float: right;
+}
+.f-left {
+  float: left;
+}
+.nav-button {
+  background-color: #fff;
+  border: 1px solid #00b4d8;
+  border-radius: 5px;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  transition: all 0.25s;
+  margin-top: 0.25rem;
+}
+.nav-button:hover {
+  background-color: #00b4d8;
+  color: #fff;
+}
+.logo-img {
+  height: 2rem;
+}
+.title {
+  font-size: 2rem;
+  vertical-align: top;
+}
+.ml-1 {
+  margin-left: 1rem;
+}
+.ml-10 {
+  margin-left: 10rem;
+}
+.mr-1 {
+  margin-bottom: 1rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.mt-1 {
+  margin-top: 1rem;
+}
+.mt-5 {
+  margin-top: 5rem;
+}
+.ml-5 {
+  margin-left: 5rem;
+}
+.mr-5 {
+  margin-right: 5rem;
+}
+.text-center {
+  text-align: center;
+}
+.color-yellow {
+  color: #fca311;
+}
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+.footer-image {
+  height: 1.5rem;
+}
+footer {
+  position: absolute;
+  padding: 1rem;
+  background-color: #fff;
+  bottom: 0px;
+  width: calc(100% - 2rem);
+}
+#main-title {
+  cursor: pointer;
+}
